@@ -27,26 +27,67 @@ body {
     margin-left: 30px;
 }
 
+.nameText {
+     position: relative;
+     top: 2vh;
+}
 
-#name {
+.name {
     background-color: #4aaaa5;
-    padding-top: 20px;
-    padding-bottom: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #ffffff;
-    font-size: 28px;
-    margin-left: 30px; 
+    font-size: 28px;  
     text-align: center;
+    vertical-align: middle;
     border-color: #cccccc;
-    display: inline;
-    margin-bottom: 50px;
+    width: 30%;
+    height: 10vh;
+    float: left;
+}
+.menuDiv {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #cccccc;
+    font-size: 28px;  
+    text-align: center;
+    vertical-align: middle;
+    border-color: #cccccc;
+    width: 70%;
+    height: 10vh;
+
+    float: left;
+}
+.clearfix {
+    clear: both;
+}
+.column1 {
+    float: left;
+    width: 25%;
 }
 
-ul#menu li{
-    display: inline;
-     position: relative;
-     left:700px;
+.column2 {
+    float: left;
+    width: 75%;
 }
+ul {
+    list-style-type: none;
+     margin-left: 420px;
+    padding: 0;
+   
+  }
+  
+  li {
+    float: left;
+  }
+  a {
+      padding-left: 20px;
+      margin-top: 10px;
+      font-size: 14pt;
+  }
+  li a {
+    display: block;
+    
+  }
+  
 
 p {
     color: #777777;
@@ -63,7 +104,61 @@ h2 {
     font-size: 30px;
 }
 
-.footer{
+#NAME {
+    width: 95%;
+    margin: 20px;
+    height: 30px
+}
+
+#email {
+    width: 95%;
+    margin: 20px;
+    height: 30px;
+}
+
+#message {
+    height: 200px;
+    width: 95%;
+    margin: 20px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin: 20px;
+    height: 20px;
+}
+img {
+    width: 200px;
+    height: 180px;
+}
+
+.pone, .ptwo, .pthree, .pfour, .pfive {
+    /* width: 20%; */
+    position: relative;
+    margin-left: 25px;
+}
+
+.interests, .music, .show, .handy, .tennis {
+    position: absolute;
+    background-color: #4aaaa5;
+    width: 200px;
+    margin-top: -50px;
+    margin-left: 25px;
+    height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    color: #ffffff;
+}
+
+.ptwo {
+    position: relative;
+    margin-right: -10px;
+    margin-top: 0;
+}
+
+
+.footer {
     background-color: #666666;
     text-align: center;
     font-size: 10px;
